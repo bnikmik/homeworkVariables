@@ -52,7 +52,7 @@ public class Main {
         int weightLossEndGram = weightLossEndKilogram * 1_000;
         int dayWeightLossDietA = weightLossEndGram / weightLossDietA;
         int dayWeightLossDietB = weightLossEndGram / weightLossDietB;
-        int dayWeightLossDietAverage = (dayWeightLossDietA + dayWeightLossDietB) / 2;
+        double dayWeightLossDietAverage = (dayWeightLossDietA + dayWeightLossDietB) / (2*1.0);
 
         System.out.println(" ");
         System.out.println("Задание №4:");
